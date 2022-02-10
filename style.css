@@ -22,12 +22,21 @@ p{
   text-align: center;
   font-size: 20px;
 }
+a{
+  font-family: Capraia;
+  text-align: center;
+  font-size: 30px;
+  color: #ffff;
+  padding: 25px;
+}
 
-.parallax {
-  background-image: url('media/albumcover.jpeg');
+
+.parallax { /* from ww3 schools*/
+  background-image: url('media/albumcover.png');
 
   /* Set a specific height */
   height: 80%;
+  width: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -40,21 +49,54 @@ p{
   text-align: center;
 }
 
-.redborder{
-height:100%;
+.redbg{
 background-color:red;
-font-size:36px;
+}
+.height100{
+height: 100%;
 }
 
-.titleimg{
-  height:25%;
-  width: 100%;
-  padding-bottom: 50px;
 }
 .titleborder{
   text-align: center;
-
   height:10%;
   background-color:#00000;
   font-size:36px;
+}
+.column {
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  height:100%;
+  padding: 10px;
+  text-align: center;
+}
+.special{
+  text-decoration: underline;
+}
+.special1{
+  font-style: italic;
+  font-weight: bold;
+}
+.special2{
+font-style: italic;
+}
+
+.padding{
+  padding-bottom: 50px;
+}
+
+.box {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  height:50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.last{
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
